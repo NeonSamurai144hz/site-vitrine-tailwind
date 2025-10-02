@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+body {
+  margin: 0;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: none;
+  pointer-events: none;
+}
+
+.highlight {
+  z-index: 25 !important;
+}
