@@ -4,6 +4,21 @@ body {
   margin: 0;
   background-color: #f3f4f6;
   min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+#projects {
+  background-color: #FFFFFF;
+  color: #473871;
+}
+
+#contact {
+  background-color: #473871;
+  color : #FFFFFF;
+}
+
+#about {
+  background-color: #473871;
 }
 
 #overlay {
@@ -21,3 +36,4 @@ body {
 .highlight {
   z-index: 25 !important;
 }
+
